@@ -1,0 +1,24 @@
+/AgroCare_GUI/nbproject/private/
+/AgroCare_GUI/build/
+/AgroCare_GUI/nbproject/private/
+
+
+# Compiled classes
+*.class
+
+# NetBeans build folders
+/AgroCare_GUI/build/
+/AgroCare_GUI/dist/
+
+# Private NetBeans data
+/AgroCare_GUI/nbproject/private/
+
+# Maven target folder
+/AgroCare_GUI/target/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
