@@ -1,0 +1,53 @@
+[
+  {
+    "id": "USR_1762271672381",
+    "nombre": "Juan",
+    "apellido": "Perez",
+    "email": "juan@example.com",
+    "contraseña": "1234",
+    "fechaRegistro": "2025-11-01",
+    "activo": true,
+    "tipo": "Administrador"
+  },
+  {
+    "id": "USR_1762271672387",
+    "nombre": "Ana",
+    "apellido": "Gomez",
+    "email": "ana@example.com",
+    "contraseña": "abcd",
+    "fechaRegistro": "2025-11-01",
+    "activo": true,
+    "tipo": "Agricultor"
+  },
+  {
+    "id": "USR_1762272585473",
+    "nombre": "Daniel",
+    "apellido": "Ortiz",
+    "email": "Daniel@example.com",
+    "contraseña": "Daniel",
+    "fechaRegistro": "2025-11-04",
+    "activo": true,
+    "tipo": "Administrador"
+  },
+  {
+    "areaAsignada": "",
+    "id": "USR_1762368311999",
+    "nombre": "laura",
+    "apellido": "laura",
+    "email": "laura@example.com",
+    "contraseña": "laura",
+    "fechaRegistro": "2025-11-05",
+    "activo": true,
+    "tipo": "Agricultor"
+  },
+  {
+    "id": "USR_1762979176232",
+    "nombre": "danny",
+    "apellido": "danny",
+    "email": "danny@example.com",
+    "contraseña": "danny",
+    "fechaRegistro": "2025-11-12",
+    "activo": true,
+    "tipo": "Administrador"
+  }
+]

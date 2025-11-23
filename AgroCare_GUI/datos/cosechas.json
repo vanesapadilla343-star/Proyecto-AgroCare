@@ -1,0 +1,26 @@
+[
+  {
+    "id": "COSECHA_1762461214855",
+    "cultivoId": "CULT_1762397088066",
+    "fecha": "2025-11-06",
+    "cantidad": 100.0,
+    "rendimiento": 1.0,
+    "idUsuario": "USR_1762271672387"
+  },
+  {
+    "id": "COSECHA_1762979517661",
+    "cultivoId": "CULT_1762979294439",
+    "fecha": "2025-11-12",
+    "cantidad": 20.0,
+    "rendimiento": 0.02,
+    "idUsuario": "USR_1762271672387"
+  },
+  {
+    "id": "COSECHA_1762980296408",
+    "cultivoId": "CULT_1762397088066",
+    "fecha": "2025-11-12",
+    "cantidad": 80.0,
+    "rendimiento": 0.8,
+    "idUsuario": "USR_1762271672381"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "CULT_1762397088066",
+    "tipoPlanta": "banano",
+    "fechaSiembra": "2025-11-02",
+    "area": 100.0,
+    "observaciones": "",
+    "idUsuario": "USR_1762271672387"
+  },
+  {
+    "id": "CULT_1762403312858",
+    "tipoPlanta": "guayaba",
+    "fechaSiembra": "2025-11-02",
+    "area": 20.0,
+    "observaciones": "estaba el suelo como seco",
+    "idUsuario": "USR_1762271672387"
+  },
+  {
+    "id": "CULT_1762403807974",
+    "tipoPlanta": "mango",
+    "fechaSiembra": "2025-11-02",
+    "area": 80.0,
+    "observaciones": "mango biche ",
+    "idUsuario": "USR_1762271672387"
+  },
+  {
+    "id": "CULT_1762979294439",
+    "tipoPlanta": "corozo",
+    "fechaSiembra": "2025-11-12",
+    "area": 1000.0,
+    "observaciones": "Clima esta caliente...",
+    "idUsuario": "USR_1762271672387"
+  },
+  {
+    "id": "CULT_1762980429175",
+    "tipoPlanta": "cereza",
+    "fechaSiembra": "2025-11-12",
+    "area": 90.0,
+    "observaciones": "",
+    "idUsuario": "USR_1762271672387"
+  },
+  {
+    "id": "CULT_1763612099165",
+    "tipoPlanta": "Manzana",
+    "fechaSiembra": "2025-11-19",
+    "area": 100.0,
+    "observaciones": "Ninguna. ",
+    "idUsuario": "USR_1762271672381"
+  }
+]

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.collections.FXCollections?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0"
+            xmlns="http://javafx.com/javafx/25"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="Interfaces.vistas.usuario.UsuarioController"
+            style="-fx-background-color: #f0f0f0;">
+
+    <children>
+        <VBox spacing="10" AnchorPane.topAnchor="0" AnchorPane.bottomAnchor="0"
+              AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0">
+              
+            <padding>
+                <Insets top="30" right="30" bottom="30" left="30"/>
+            </padding>
+
+            <!-- 1️⃣ Sección de título -->
+            <HBox spacing="10" alignment="CENTER_RIGHT">
+                <VBox spacing="5">
+                    <Label text="Gestión de usuarios" style="-fx-font-size: 24px; -fx-font-weight: bold;" />
+                    <Label text="Administra los usuarios del sistema" style="-fx-font-size: 14px; -fx-text-fill: #555;" />
+                </VBox>
+            </HBox>
+
+            <!-- Tabla de usuarios -->
+            <VBox spacing="5" VBox.vgrow="ALWAYS" fx:id="tblContainer">
+                <Label text="Total: 0 Usuarios" fx:id="lblTotalUsuarios" style="-fx-font-size: 14px;"/>
+                <TextField promptText="Buscar por nombre, apellido o email..." fx:id="txtBuscar" 
+                           prefHeight="35" style="-fx-font-size: 14px;"/>
+
+                <TableView fx:id="tblUsuarios" prefHeight="250" VBox.vgrow="ALWAYS"> 
+                    <columns> 
+                        <TableColumn text="Nombre" fx:id="colNombre"/> 
+                        <TableColumn text="Apellido" fx:id="colApellido"/> 
+                        <TableColumn text="Email" fx:id="colEmail"/> 
+                        <TableColumn text="Tipo" fx:id="colTipo"/> 
+                        <TableColumn text="Área" fx:id="colArea"/> 
+                        <TableColumn text="Estado" fx:id="colEstado"/> 
+                    </columns> 
+                    <!-- Ajuste automático de columnas -->
+                    <columnResizePolicy> 
+                        <TableView fx:constant="CONSTRAINED_RESIZE_POLICY"/> 
+                    </columnResizePolicy> 
+                </TableView>
+            </VBox>
+
+            <Region prefHeight="50"/>
+
+            <!-- 3️⃣ Sección de captura y botones pegada al fondo -->
+            <HBox spacing="50">
+                <!-- Campos de captura -->
+                <VBox spacing="15" HBox.hgrow="ALWAYS">
+                    <GridPane hgap="15" vgap="15">
+                        <!-- Nombre -->
+                        <Label text="Nombre:" GridPane.rowIndex="0" GridPane.columnIndex="0" style="-fx-font-size: 14px;"/>
+                        <TextField fx:id="txtNombre" GridPane.rowIndex="0" GridPane.columnIndex="1" prefHeight="35" style="-fx-font-size: 14px;"/>
+
+                        <!-- Apellido -->
+                        <Label text="Apellido:" GridPane.rowIndex="0" GridPane.columnIndex="2" style="-fx-font-size: 14px;"/>
+                        <TextField fx:id="txtApellido" GridPane.rowIndex="0" GridPane.columnIndex="3" prefHeight="35" style="-fx-font-size: 14px;"/>
+
+                        <!-- Email -->
+                        <Label text="Email:" GridPane.rowIndex="1" GridPane.columnIndex="0" style="-fx-font-size: 14px;"/>
+                        <TextField fx:id="txtEmail" GridPane.rowIndex="1" GridPane.columnIndex="1" GridPane.columnSpan="3" prefHeight="35" style="-fx-font-size: 14px;"/>
+
+                        <!-- Contraseña -->
+                        <Label text="Contraseña:" GridPane.rowIndex="2" GridPane.columnIndex="0" style="-fx-font-size: 14px;"/>
+                        <PasswordField fx:id="txtContrasena" GridPane.rowIndex="2" GridPane.columnIndex="1" GridPane.columnSpan="3" prefHeight="35" style="-fx-font-size: 14px;"/>
+
+                        <!-- Tipo de usuario -->
+                        <Label text="Tipo de usuario:" GridPane.rowIndex="3" GridPane.columnIndex="0" style="-fx-font-size: 14px;"/>
+                        <ComboBox fx:id="cbTipoUsuario" GridPane.rowIndex="3" GridPane.columnIndex="1" GridPane.columnSpan="3" prefHeight="35" style="-fx-font-size: 14px;" />
+
+                        <!-- Área asignada (solo para empleados) -->
+                        <Label text="Área asignada:" GridPane.rowIndex="4" GridPane.columnIndex="0" style="-fx-font-size: 14px;"/>
+                        <TextField fx:id="txtAreaAsignada" GridPane.rowIndex="4" GridPane.columnIndex="1" GridPane.columnSpan="3" prefHeight="35" style="-fx-font-size: 14px;" disable="true"/>
+
+                    </GridPane>
+                </VBox>
+
+
+                <!-- Botones de acción -->
+                <VBox spacing="15">
+                    <VBox spacing="10" style="-fx-border-color: #ccc; -fx-border-width: 1; -fx-padding: 10; -fx-background-color: #f9f9f9;">
+                        <Label text="Acceso al sistema" style="-fx-font-size: 14px; -fx-font-weight: bold;"/>
+
+                        <HBox spacing="30">
+                            <Button text="Deshabilitar" 
+                                    style="-fx-background-color: #0E492D; -fx-text-fill: white; -fx-font-size: 14px; -fx-cursor: hand;" 
+                                    prefWidth="120" prefHeight="40" fx:id="btnDeshabilitar"/>
+                            <Button text="Habilitar" 
+                                    style="-fx-background-color: #0E492D; -fx-text-fill: white; -fx-font-size: 14px; -fx-cursor: hand;" 
+                                    prefWidth="120" prefHeight="40" fx:id="btnHabilitar"/>
+                        </HBox>
+                    </VBox>
+
+                    <Button text="Agregar" 
+                            style="-fx-background-color: #28a745; -fx-text-fill: white; -fx-font-size: 14px; -fx-cursor: hand;" 
+                            prefWidth="120" prefHeight="40" fx:id="btnAgregar"/>
+                    <Button text="Actualizar" 
+                            style="-fx-background-color: #ff7f00; -fx-text-fill: white; -fx-font-size: 14px; -fx-cursor: hand;" 
+                            prefWidth="120" prefHeight="40" fx:id="btnActualizar"/>
+                    
+                    <Button text="Limpiar" fx:id="btnLimpiar" style="-fx-background-color: #6c757d; -fx-text-fill: white;" prefWidth="120"/>
+                </VBox>
+
+            </HBox>
+
+        </VBox>
+    </children>
+</AnchorPane>
+

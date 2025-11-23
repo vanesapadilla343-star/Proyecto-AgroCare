@@ -1,0 +1,87 @@
+[
+  {
+    "nombreTemporada": "invierno",
+    "fechaInicio": "2025-11-05",
+    "fechaFin": "2025-11-06",
+    "cultivoId": "CULT_1762397088066",
+    "tipoPlanta": "banano",
+    "fechaSiembra": "2025-11-02",
+    "area": 100.0,
+    "detallesRiegos": [
+      "Fecha: 2025-11-05 | Cantidad: 40000000,00 L | Estado: Programado",
+      "Fecha: 2025-11-05 | Cantidad: 20,00 L | Estado: Ejecutado",
+      "Fecha: 2025-11-05 | Cantidad: 5000,00 L | Estado: Ejecutado",
+      "Fecha: 2025-11-05 | Cantidad: 90,00 L | Estado: Programado",
+      "Fecha: 2025-11-05 | Cantidad: 12,00 L | Estado: Programado"
+    ],
+    "detallesFertilizaciones": [],
+    "detallesCosechas": [
+      "Fecha: 2025-11-06 | Cantidad: 100,00 kg | Rendimiento: 1,00 kg/m²"
+    ],
+    "numeroRiegos": 5,
+    "litrosUsados": 4.0005122E7,
+    "numeroFertilizaciones": 0,
+    "numeroCosechas": 1,
+    "kgCosechados": 100.0,
+    "rendimientoPromedio": 1.0,
+    "observaciones": "",
+    "idUsuario": "USR_1762271672387"
+  },
+  {
+    "nombreTemporada": "noviembre-2025-2",
+    "fechaInicio": "2025-11-01",
+    "fechaFin": "2025-11-12",
+    "cultivoId": "CULT_1762397088066",
+    "tipoPlanta": "banano",
+    "fechaSiembra": "2025-11-02",
+    "area": 100.0,
+    "detallesRiegos": [
+      "Fecha: 2025-11-05 | Cantidad: 40000000,00 L | Estado: Programado",
+      "Fecha: 2025-11-05 | Cantidad: 20,00 L | Estado: Ejecutado",
+      "Fecha: 2025-11-05 | Cantidad: 5000,00 L | Estado: Ejecutado",
+      "Fecha: 2025-11-05 | Cantidad: 90,00 L | Estado: Programado",
+      "Fecha: 2025-11-05 | Cantidad: 12,00 L | Estado: Programado"
+    ],
+    "detallesFertilizaciones": [],
+    "detallesCosechas": [
+      "Fecha: 2025-11-06 | Cantidad: 100,00 kg | Rendimiento: 1,00 kg/m²"
+    ],
+    "numeroRiegos": 5,
+    "litrosUsados": 4.0005122E7,
+    "numeroFertilizaciones": 0,
+    "numeroCosechas": 1,
+    "kgCosechados": 100.0,
+    "rendimientoPromedio": 1.0,
+    "observaciones": "",
+    "idUsuario": "USR_1762271672387"
+  },
+  {
+    "nombreTemporada": "Temporada 2025-2",
+    "fechaInicio": "2025-09-02",
+    "fechaFin": "2025-11-19",
+    "cultivoId": "CULT_1762397088066",
+    "tipoPlanta": "banano",
+    "fechaSiembra": "2025-11-02",
+    "area": 100.0,
+    "detallesRiegos": [
+      "Fecha: 2025-11-05 | Cantidad: 40000000,00 L | Estado: Programado",
+      "Fecha: 2025-11-05 | Cantidad: 20,00 L | Estado: Ejecutado",
+      "Fecha: 2025-11-05 | Cantidad: 5000,00 L | Estado: Ejecutado",
+      "Fecha: 2025-11-05 | Cantidad: 90,00 L | Estado: Programado",
+      "Fecha: 2025-11-05 | Cantidad: 12,00 L | Estado: Programado"
+    ],
+    "detallesFertilizaciones": [],
+    "detallesCosechas": [
+      "Fecha: 2025-11-06 | Cantidad: 100,00 kg | Rendimiento: 1,00 kg/m²",
+      "Fecha: 2025-11-12 | Cantidad: 80,00 kg | Rendimiento: 0,80 kg/m²"
+    ],
+    "numeroRiegos": 5,
+    "litrosUsados": 4.0005122E7,
+    "numeroFertilizaciones": 0,
+    "numeroCosechas": 2,
+    "kgCosechados": 180.0,
+    "rendimientoPromedio": 0.9,
+    "observaciones": "",
+    "idUsuario": "USR_1762271672381"
+  }
+]

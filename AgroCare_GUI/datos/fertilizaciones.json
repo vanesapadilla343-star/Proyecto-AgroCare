@@ -1,0 +1,112 @@
+[
+  {
+    "id": "FERT_1762403312861",
+    "cultivoId": "CULT_1762403312858",
+    "fecha": "2025-11-05",
+    "tipoFertilizante": "Nitrogeno",
+    "cantidad": 0.0,
+    "unidad": "KG",
+    "esProgramado": true,
+    "ejecutado": true,
+    "idUsuario": "USR_1762271672387"
+  },
+  {
+    "id": "FERT_1762403312861",
+    "cultivoId": "CULT_1762403312858",
+    "fecha": "2025-11-05",
+    "tipoFertilizante": "Fosforo",
+    "cantidad": 0.0,
+    "unidad": "KG",
+    "esProgramado": true,
+    "ejecutado": true,
+    "idUsuario": "USR_1762271672387"
+  },
+  {
+    "id": "FERT_1762403807976",
+    "cultivoId": "CULT_1762403807974",
+    "fecha": "2025-11-12",
+    "tipoFertilizante": "Fosforo",
+    "cantidad": 10.0,
+    "unidad": "KG",
+    "esProgramado": true,
+    "ejecutado": true,
+    "idUsuario": "USR_1762271672387"
+  },
+  {
+    "id": "FERT_1762403807976",
+    "cultivoId": "CULT_1762403807974",
+    "fecha": "2025-11-12",
+    "tipoFertilizante": "Fosforo",
+    "cantidad": 10.0,
+    "unidad": "KG",
+    "esProgramado": true,
+    "ejecutado": true,
+    "idUsuario": "USR_1762271672387"
+  },
+  {
+    "id": "FERT_1762979294439",
+    "cultivoId": "CULT_1762979294439",
+    "fecha": "2025-11-12",
+    "tipoFertilizante": "Nitrogeno",
+    "cantidad": 10.0,
+    "unidad": "KG",
+    "esProgramado": true,
+    "ejecutado": true,
+    "idUsuario": "USR_1762271672387"
+  },
+  {
+    "id": "FERT_1762979294439",
+    "cultivoId": "CULT_1762979294439",
+    "fecha": "2025-11-14",
+    "tipoFertilizante": "Fosforo",
+    "cantidad": 0.0,
+    "unidad": "KG",
+    "esProgramado": true,
+    "ejecutado": false,
+    "idUsuario": "USR_1762271672387"
+  },
+  {
+    "id": "FERT_1762980429177",
+    "cultivoId": "CULT_1762980429175",
+    "fecha": "2025-11-14",
+    "tipoFertilizante": "Nitrogeno",
+    "cantidad": 0.0,
+    "unidad": "KG",
+    "esProgramado": true,
+    "ejecutado": false,
+    "idUsuario": "USR_1762271672387"
+  },
+  {
+    "id": "FERT_1762980429177",
+    "cultivoId": "CULT_1762980429175",
+    "fecha": "2025-11-14",
+    "tipoFertilizante": "Fosforo",
+    "cantidad": 0.0,
+    "unidad": "KG",
+    "esProgramado": true,
+    "ejecutado": false,
+    "idUsuario": "USR_1762271672387"
+  },
+  {
+    "id": "FERT_1763612099168",
+    "cultivoId": "CULT_1763612099165",
+    "fecha": "2025-11-21",
+    "tipoFertilizante": "Nitrogeno",
+    "cantidad": 0.0,
+    "unidad": "KG",
+    "esProgramado": true,
+    "ejecutado": false,
+    "idUsuario": "USR_1762271672381"
+  },
+  {
+    "id": "FERT_1763612099168",
+    "cultivoId": "CULT_1763612099165",
+    "fecha": "2025-11-21",
+    "tipoFertilizante": "Fosforo",
+    "cantidad": 0.0,
+    "unidad": "KG",
+    "esProgramado": true,
+    "ejecutado": false,
+    "idUsuario": "USR_1762271672381"
+  }
+]

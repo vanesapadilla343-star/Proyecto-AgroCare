@@ -1,0 +1,67 @@
+/* Hoja de estilos para proyecto AgroCare_GUI */
+
+/* Paleta de colores */
+.root {
+    --verde-oscuro: #0E492D;
+    --verde-claro: #97C549;
+    --rojo: #CC3516;
+    --azul-boton: #22BA99;
+    --actualizar: #DB8A2A;
+    --gris: #ADA8A0;
+    --texto-default: #333333;
+    --fondo-default-blanco: #FFFFFF;
+    --fondo-default:#EAE9DF
+}
+
+/* Fondo de la ventana */
+.root {
+    -fx-background-color: var(--fondo-default);
+}
+
+/* Botones generales */
+.button {
+    -fx-background-color: var(--azul-boton);
+    -fx-text-fill: var(--fondo-default);
+    -fx-font-weight: bold;
+    -fx-background-radius: 8;
+}
+
+/* Botón de actualizar */
+.button.actualizar {
+    -fx-background-color: var(--actualizar);
+    -fx-text-fill: var(--fondo-default);
+}
+
+/* Botones con peligro o eliminar */
+.button.peligro {
+    -fx-background-color: var(--rojo);
+    -fx-text-fill: var(--fondo-default);
+}
+
+/* Labels */
+.label {
+    -fx-text-fill: var(--texto-default);
+}
+
+/* Labels de error */
+.label.error {
+    -fx-text-fill: var(--rojo);
+}
+
+/* Campos de texto */
+.text-field, .text-area {
+    -fx-background-color: var(--gris);
+    -fx-text-fill: var(--verde-oscuro);
+    -fx-background-radius: 6;
+    -fx-border-color: var(--verde-oscuro);
+    -fx-border-radius: 6;
+}
+
+/* Paneles con fondo verde */
+.pane-verde-oscuro {
+    -fx-background-color: var(--verde-oscuro);
+}
+
+.pane-verde-claro {
+    -fx-background-color: var(--verde-claro);
+}

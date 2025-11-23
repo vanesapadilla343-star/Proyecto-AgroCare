@@ -1,0 +1,92 @@
+[
+  {
+    "id": "RIEGO_1762397088068",
+    "cultivoId": "CULT_1762397088066",
+    "fecha": "2025-11-05",
+    "cantidadAgua": 4.0E7,
+    "esProgramado": true,
+    "ejecutado": true,
+    "idUsuario": "USR_1762271672387"
+  },
+  {
+    "id": "RIEGO_1762397097690",
+    "cultivoId": "CULT_1762397088066",
+    "fecha": "2025-11-05",
+    "cantidadAgua": 20.0,
+    "esProgramado": false,
+    "ejecutado": true,
+    "idUsuario": "USR_1762271672387"
+  },
+  {
+    "id": "RIEGO_1762397894325",
+    "cultivoId": "CULT_1762397088066",
+    "fecha": "2025-11-05",
+    "cantidadAgua": 5000.0,
+    "esProgramado": false,
+    "ejecutado": true,
+    "idUsuario": "USR_1762271672387"
+  },
+  {
+    "id": "RIEGO_1762397903181",
+    "cultivoId": "CULT_1762397088066",
+    "fecha": "2025-11-05",
+    "cantidadAgua": 90.0,
+    "esProgramado": true,
+    "ejecutado": true,
+    "idUsuario": "USR_1762271672387"
+  },
+  {
+    "id": "RIEGO_1762400897634",
+    "cultivoId": "CULT_1762397088066",
+    "fecha": "2025-11-05",
+    "cantidadAgua": 12.0,
+    "esProgramado": true,
+    "ejecutado": true,
+    "idUsuario": "USR_1762271672387"
+  },
+  {
+    "id": "RIEGO_1762403312860",
+    "cultivoId": "CULT_1762403312858",
+    "fecha": "2025-11-19",
+    "cantidadAgua": 10.0,
+    "esProgramado": true,
+    "ejecutado": true,
+    "idUsuario": "USR_1762271672387"
+  },
+  {
+    "id": "RIEGO_1762403807976",
+    "cultivoId": "CULT_1762403807974",
+    "fecha": "2025-11-07",
+    "cantidadAgua": 0.0,
+    "esProgramado": true,
+    "ejecutado": false,
+    "idUsuario": "USR_1762271672387"
+  },
+  {
+    "id": "RIEGO_1762979294439",
+    "cultivoId": "CULT_1762979294439",
+    "fecha": "2025-11-12",
+    "cantidadAgua": 1000.0,
+    "esProgramado": true,
+    "ejecutado": true,
+    "idUsuario": "USR_1762271672387"
+  },
+  {
+    "id": "RIEGO_1762980429177",
+    "cultivoId": "CULT_1762980429175",
+    "fecha": "2025-11-14",
+    "cantidadAgua": 0.0,
+    "esProgramado": true,
+    "ejecutado": false,
+    "idUsuario": "USR_1762271672387"
+  },
+  {
+    "id": "RIEGO_1763612099168",
+    "cultivoId": "CULT_1763612099165",
+    "fecha": "2025-11-21",
+    "cantidadAgua": 0.0,
+    "esProgramado": true,
+    "ejecutado": false,
+    "idUsuario": "USR_1762271672381"
+  }
+]

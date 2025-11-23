@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane style="-fx-background-color: #F5F5F5;" xmlns="http://javafx.com/javafx/25"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="Interfaces.vistas.home.HomeController">
+
+    <top> 
+        <HBox alignment="CENTER_RIGHT" spacing="10" style="-fx-background-color: #F0F0F0; -fx-padding: 10;">
+            <ImageView fitHeight="73.0" fitWidth="37.0" pickOnBounds="true" preserveRatio="true">
+                <image>
+                    <Image url="@../../recursos/imagenes/usuario.png" />
+                </image>
+            </ImageView>
+        
+            <!-- Nombre de usuario y rol RECUERDA LA CLASE -->
+            <VBox alignment="CENTER_LEFT" spacing="2">
+                <Label fx:id="lblUsuario" style="-fx-font-weight: bold; -fx-font-size: 14px; -fx-text-fill: black" text="Juan Perez" />
+                <Label fx:id="lblRol" style="-fx-font-size: 11px; -fx-text-fill: gray" text="Administrador" />
+            </VBox>
+        
+            <!-- Espacio flexible para empujar el botón a la derecha --> 
+            <Region HBox.hgrow="ALWAYS" /> <!-- Botón de cerrar sesión --> 
+            <Button fx:id="btnCerrarSesion" onAction="#cerrarSesion" style="-fx-background-color: #E74C3C; -fx-text-fill: white; -fx-font-weight: bold;" text="Cerrar sesión" /> 
+        </HBox> 
+    </top>
+
+
+        
+    <!--  Sidebar Izquierdo -->
+    <left>
+        <VBox prefWidth="250.0" spacing="10" style="-fx-background-color: #97C549;">
+            <padding>
+                <Insets bottom="20" left="20" right="20" top="25" />
+            </padding>
+            
+            <!--  Logo + Nombre -->
+            <VBox alignment="CENTER" spacing="5">
+                <!-- Imagen del logo -->
+                <ImageView fitHeight="97.0" fitWidth="143.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../../recursos/imagenes/logo.png" />
+                    </image>
+                </ImageView>
+
+
+                <!-- Nombre -->
+                <Label style="-fx-text-fill: white; -fx-font-size: 24px; -fx-font-weight: bold;" text="AgroCare" />
+            </VBox>
+
+            <!-- Línea separadora más cerca del texto -->
+            <Pane prefHeight="2" prefWidth="210" style="-fx-background-color: white;" />
+            <Region prefHeight="18.0" prefWidth="210.0" />
+
+
+            <!--  Botones de navegación -->
+            <VBox fx:id="menuPrincipal" alignment="TOP_LEFT" spacing="8">
+                <Button fx:id="btnCultivo" onAction="#abrirCultivo" prefWidth="200" style="-fx-background-color: transparent; -fx-text-fill: white; -fx-font-size: 15px; -fx-font-weight: 600; -fx-cursor: hand;" text="Cultivo" />
+                <Button fx:id="btnRiego" onAction="#abrirRiego" prefWidth="200" style="-fx-background-color: transparent; -fx-text-fill: white; -fx-font-size: 15px; -fx-font-weight: 600; -fx-cursor: hand;" text="Riego" />
+                <Button fx:id="btnCosecha" onAction="#abrirCosecha" prefWidth="200" style="-fx-background-color: transparent; -fx-text-fill: white; -fx-font-size: 15px; -fx-font-weight: 600; -fx-cursor: hand;" text="Cosecha" />
+                <Button fx:id="btnFertilizacion" onAction="#abrirFertilizacion" prefWidth="200" style="-fx-background-color: transparent; -fx-text-fill: white; -fx-font-size: 15px; -fx-font-weight: 600; -fx-cursor: hand;" text="Fertilización" />
+                <Button fx:id="btnUsuario" onAction="#abrirUsuarios" prefWidth="200" style="-fx-background-color: transparent; -fx-text-fill: white; -fx-font-size: 15px; -fx-font-weight: 600; -fx-cursor: hand;" text="Usuarios" />
+            </VBox>
+            
+            <!-- Espacio flexible para empujar "Reporte" al final -->
+            <Region VBox.vgrow="ALWAYS" />
+            
+            <!--  Botón Reporte -->
+            <Button fx:id="btnReporte" onAction="#abrirReporte" prefWidth="200" style="-fx-background-color: #0E492D; -fx-text-fill: white; -fx-font-size: 15px; -fx-font-weight: bold; -fx-cursor: hand;" text="Reporte" />
+        </VBox>
+    </left>
+    
+    <!-- 🪴 Contenido principal -->
+    <center>
+        
+        <StackPane fx:id="contenidoPrincipal" style="-fx-background-color: white; -fx-border-radius: 10; -fx-background-radius: 10; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 10, 0, 0, 3);">
+            <padding>
+                <Insets bottom="20" left="20" right="20" top="20" />
+            </padding>
+            <Label style="-fx-font-size: 28px; -fx-text-fill: #2d5016; -fx-font-weight: bold;" text="Bienvenido a AgroCare" />
+        </StackPane>
+    </center>
+</BorderPane>
